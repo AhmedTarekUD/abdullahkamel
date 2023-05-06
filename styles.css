@@ -1,0 +1,36 @@
+body {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  background-color: #f0f0f0;
+}
+
+h1 {
+  color: #333;
+}
+
+audio {
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+li.active {
+  background-color: #e2dcdc;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+li:hover {
+  background-color: #eee;
+}
